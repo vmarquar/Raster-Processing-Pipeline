@@ -26,6 +26,9 @@ gdalwarp -s_srs EPSG:31467 -t_srs EPSG:3857 -r average input.tif image_warped.ti
 gdal_translate -co "TILED=YES" -co "BLOCKXSIZE=256" -co "BLOCKYSIZE=256" -co "COMPRESS=JPEG" input.tif output.tif
 ```
 or as a QGIS python script:
+```
+python QGIS_prerender.py
+```
 
 ### 4 Merge into big tif (can be done with QGIS as well)
 ```
