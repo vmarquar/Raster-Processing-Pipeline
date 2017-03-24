@@ -54,7 +54,7 @@ Can also be done programmatically via node-js API (see Docs for more Info).
 
 
 
-## ALTERNATIVES (WHICH WHERE CRAP!)
+## ALTERNATIVES (WHICH WHERE HARD TO MANAGE, INEFFICIENT AND WHERE RESULTING IN VERY LARGE FILES!)
 #### (just as a reminder)
 [5-1] Tile Images with gdal2tiles
 ```
