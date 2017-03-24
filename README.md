@@ -57,15 +57,15 @@ Can also be done programmatically via node-js API (see Docs for more Info).
 ## ALTERNATIVES (WHICH WHERE CRAP!)
 #### (just as a reminder)
 [5-1] Tile Images with gdal2tiles
-
+```
 gdal_vrtmerge.py -o merged.vrt imaged_tiled.tif image2_tiled.tif
 
 gdal2tiles.py -p mercator -r average -s EPSG:3857 -z 7-14 -v merged.vrt output_dir
-
+```
 [5-2] Store Tiled Images with mbutil into mbtiles
-
+```
 '/Users/Valentin/Documents/GIS-Daten/processing_pipeline (modules)/mbutil/mb-util' --scheme=xyz --image_format=png output_dir output.mbtiles
-
+```
 #### Improvements
 - alternative tiling method
 - compress images after tiling
